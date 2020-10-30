@@ -6,7 +6,7 @@ public class Main {
         Class.forName("com.mysql.jdbc.Driver");
         Connection connection  = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","");
         PreparedStatement preparedStatement = connection.prepareStatement("select * form db");
-        ResultSet resultSet = preparedStatement.getResultSet();
+        ResultSet resultSet = preparedStatement.executeQuery();
         System.out.println(resultSet);
     }
 }
