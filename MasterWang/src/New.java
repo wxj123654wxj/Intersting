@@ -5,5 +5,6 @@ public class New {
         System.out.print("wxj sb");
         System.out.print("wxj dsb");
         File f = new File("\\xxx.txt");
+        System.out.printf("HelloWorld");
     }
 }
