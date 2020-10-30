@@ -8,5 +8,6 @@ public class Main {
         PreparedStatement preparedStatement = connection.prepareStatement("select * form db");
         ResultSet resultSet = preparedStatement.executeQuery();
         System.out.println(resultSet);
+
     }
 }
