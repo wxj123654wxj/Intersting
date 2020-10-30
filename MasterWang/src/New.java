@@ -2,9 +2,9 @@ import java.io.File;
 
 public class New {
     public static void main(String args[]){
-        System.out.print("wxj sb");
-        System.out.print("wxj dsb");
+        System.out.print("jjx sb");
+        System.out.print("jjx dsb");
         File f = new File("\\xxx.txt");
-        System.out.printf("HelloWorld");
-    }
+        System.out.print("HelloWorld");
+}
 }
